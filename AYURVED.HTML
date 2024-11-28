@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="AYURVED.CSS" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="C:\Users\Raj Aryan\Downloads\ray-hennessy-xUUZcpQlqpM-unsplash.jpg" alt="1" />
+          <h1>FOX</h1>
+          <div class="details">
+            <h2>FOX</h2>
+            <p> SWEETEST ONE</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="C:\Users\Raj Aryan\Downloads\philipp-pilz-iQRKBNKyRpo-unsplash.jpg" alt="2" />
+          <h1>DEAR</h1>
+          <div class="details">
+            <h2>DEAR</h2>
+            <p>CUETEST ONE</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="C:\Users\Raj Aryan\Downloads\geranimo-bKhETeDV1WM-unsplash.jpg" alt="3" />
+          <h1>SQUAREEL</h1>
+          <div class="details">
+            <h2>SQUAREEL</h2>
+            <p>PRETIEST ONE</p>
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="C:\Users\Raj Aryan\Downloads\taha-mohammed-mkPkiKmRyoU-unsplash.jpg" alt="4" />
+          <h1>CAT</h1>
+          <div class="details">
+            <h2>CAT</h2>
+            <p>DARKEST ONE</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="C:\Users\Raj Aryan\Downloads\updesh-raj-UQQwB0rBZfY-unsplash.jpg" alt="5" />
+          <h1>GILARAHI</h1>
+          <div class="details">
+            <h2>GILAHARI</h2>
+            <p>FASTEST ONE</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="C:\Users\Raj Aryan\Downloads\supratik-deshmukh-qLZR9An6uTw-unsplash.jpg" alt="6" />
+          <h1>PLANT</h1>
+          <div class="details">
+            <h2>PLANT</h2>
+            <p>UNIQUE</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="C:\Users\Raj Aryan\Downloads\Tulsi-flower.jpg" alt="7" />
+          <h1>TULSI</h1>
+          <div class="details">
+            <h2>TULSI</h2>
+            <p>GOD OF MEDICINE</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="AYURVED.JS"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
